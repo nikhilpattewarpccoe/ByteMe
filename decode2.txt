@@ -1,0 +1,19 @@
+// Decoding code2:
+
+< length - 1; i += 2) {
+        swap(decoded[i], decoded[i + 1]);
+    }
+    
+    return decoded;
+}
+
+int main() {
+    string encodedMessage = "gskg:h//rtsgyfx.nlK/izrgTpglzorm";
+    
+    string decodedMessage = decodeMessage(encodedMessage);
+    
+    cout << "Decoded message: " << decodedMessage << endl;
+    
+    return 0;
+}
+
